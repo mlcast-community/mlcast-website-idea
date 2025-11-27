@@ -55,9 +55,11 @@ export const GetStarted = () => {
               For development installation and contribution guidelines, visit our GitHub repository
             </p>
             <div className="pt-4">
-              <Button variant="outline" size="lg" className="group">
-                <Github className="mr-2 h-5 w-5" />
-                View GitHub Repository
+              <Button variant="outline" size="lg" className="group" asChild>
+                <a href="https://github.com/mlcast-community" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-5 w-5" />
+                  View GitHub Repository
+                </a>
               </Button>
             </div>
           </div>
