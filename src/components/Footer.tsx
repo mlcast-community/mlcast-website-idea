@@ -37,14 +37,16 @@ export const Footer = () => {
             <h4 className="text-sm font-semibold">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://github.com/mlcast-community"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="h-10 w-10 rounded-lg bg-muted hover:bg-muted/80 flex items-center justify-center transition-colors"
                 aria-label="GitHub"
               >
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="mailto:contact@mlcast-community.org"
                 className="h-10 w-10 rounded-lg bg-muted hover:bg-muted/80 flex items-center justify-center transition-colors"
                 aria-label="Email"
               >

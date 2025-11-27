@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-nowcasting.jpg";
+import heroImage from "@/assets/hero-rain-solar.jpg";
 
 export const Hero = () => {
   return (
@@ -35,9 +35,16 @@ export const Hero = () => {
               Get Started
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline" className="group">
-              <Github className="mr-2 h-5 w-5" />
-              View on GitHub
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="group"
+              asChild
+            >
+              <a href="https://github.com/mlcast-community" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-5 w-5" />
+                View on GitHub
+              </a>
             </Button>
           </div>
         </div>
